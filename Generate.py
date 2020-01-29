@@ -8,7 +8,7 @@ NUM_TO_GEN = 20
 MODEL_DIR = 'trained_all/'
 PARSED_DIR = 'parsed_all/'
 MAKE_STATEFUL = False
-IS_REVERSE = True
+IS_REVERSE = False
 
 #Load titles
 title_words, title_word_to_ix = util.load_title_dict(PARSED_DIR)
