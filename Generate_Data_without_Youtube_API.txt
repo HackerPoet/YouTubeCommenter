@@ -1,0 +1,13 @@
+Download youtube-dl (It is a playlist download software but is useful here to extract data as well) from 
+            https://youtube-dl.org/  (For Windows)
+                        OR
+          sudo apt-get install youtube-dl (For Ubuntu)
+Once done : 
+Run the following command for a said playlist : 
+      youtube-dl -e --get-id "<LINK TO PLAYLIST>" > title_and_comments.txt
+This will give you a list of all the titles and URLs within the playlist in the above mentioned file
+Then run 
+      https://github.com/philbot9/youtube-comment-scraper (a bit tedious setup but fast)
+                                          OR
+   https://github.com/egbertbouman/youtube-comment-downloader (Simple python run file but slower)
+to scrape all comments of each Video URL in the playlist
